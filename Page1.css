@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.color-white {
+  color: white;
+}
+
+.add-flex {
+  display: flex;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.icon-height {
+  width: 14px;
+  height: 14px;
+}
+
+.Yogameta-title-container {
+  background-color: rgb(36, 50, 56);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.Yogameta-heading {
+  display: flex;
+  padding: 18px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.Yogameta-heading-text {
+  color: rgb(144, 202, 249);
+  padding: 0 10px;
+  font-weight: 700;
+  font-family: system-ui;
+}
+
+.Yogameta-options-set1 {
+  display: flex;
+  align-items: center;
+}
+
+.Yogameta-options-set1 > * {
+  padding: 0 5px;
+}
+
+.Yogameta-options-set2 {
+  display: flex;
+  width: 210px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Yogameta-options-set2 > * {
+  padding: 0 10px;
+}
+
+path {
+  fill: #ffffff;
+}
+
+.cart-btn {
+  width: 136px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 0 15px;
+  background: rgb(232, 75, 27);
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.padding-left-10 {
+  padding: 0 10px;
+}
+
+.left-arrow svg {
+  fill: red;
+}
+
+.preview-icon {
+  margin-left: 17px;
+}
+
+.topbar-icon-size {
+  width: 20px;
+  height: 20px;
+}
+
+.down-arrow {
+  width: 11px;
+  height: 11px;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.top-nav-bar {
+  background: rgb(44, 44, 44);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.margin-30px {
+  margin-left: 30px;
+}
+
+.Yogameta-details {
+  letter-spacing: 0.1em;
+}
+
+.Yogameta-contact-location {
+  color: white;
+}
+
+.Yogameta-details .location-icon,
+.phone-icon {
+  width: 15px;
+}
+
+.Yogameta-timings {
+  color: rgb(116, 116, 116);
+  padding-top: 10px;
+}
+
+.Yogameta-timings li,
+dt,
+dd {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.Yogameta-timings dl::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 2px;
+  background-color: rgb(143, 143, 143);
+  margin-left: 15px;
+}
+
+.user-login {
+  color: rgb(151, 194, 73);
+  display: flex;
+  align-items: center;
+}
+
+.user-login ul li {
+  display: inline-block;
+}
+
+/* Introduction */
+
+.introduction .nav-bar-container a {
+  padding: 0px 15px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.introduction .nav-bar-container a:hover {
+  color: white;
+  background: rgb(151, 194, 73);
+}
+
+.introduction {
+  height: 70%;
+  background: url(./img/yogameta-bg-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.introduction .description {
+  padding: 25px;
+}
+
+.introduction .description .pagination {
+  padding-top: 25px;
+}
+
+.introduction .description h3 {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.introduction .nav-bar-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.introduction .social-media-icons {
+  display: flex;
+  padding: 0 10px;
+}
+
+.introduction .facebook-icon,
+.google-plus-icon {
+  height: 20px;
+}
+
+.introduction .twitter-icon,
+.linkedin-icon {
+  height: 15px;
+}
+
+.introduction .description h1 {
+  font-size: 72px;
+  font-weight: 100;
+  width: 38%;
+  line-height: 0.9em;
+}
+
+.introduction .description h3 {
+  width: 40%;
+  padding: 20px 0;
+}
+
+.introduction .description .read-more-btn {
+  width: 151px;
+  font-size: 13px;
+  border-radius: 18px;
+  border: 1px solid green;
+  padding: 8px 8px;
+  background: transparent;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  color: rgb(151, 194, 73);
+  border-color: rgb(151, 194, 73);
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.introduction .description .read-more-btn:hover {
+  background: rgb(151, 194, 73);
+  color: white;
+}
+
+.introduction .description .btn-text {
+  margin-left: 10px;
+  letter-spacing: 0.2em;
+}
+
+.introduction .description .btn-direction-icon {
+  width: 17px;
+  padding: 5px;
+  border-radius: 50%;
+  background: rgb(151, 194, 74);
+  transform: rotate(-90deg);
+}
+
+.introduction .description .btn-icon-container {
+  position: absolute;
+  top: 7%;
+  left: 82%;
+}
+
+.pagination span {
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagination span {
+  color: rgb(151, 194, 73);
+}
+
+.pagination span:hover {
+  background: rgb(151, 194, 74);
+  color: white;
+}
+
+.yoga-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
+}
+
+.yoga-type {
+  color: rgb(151, 194, 74);
+  font-size: 20px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  cursor: pointer;
+}
+
+.yoga-type:hover {
+  background: rgb(151, 194, 74);
+  color: white;
+}
+
+.yoga-type .icons {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.yoga-details {
+  background-image: url(./img/yoga-details-bg.jpg);
+  height: 750px;
+  background-position-x: -279px;
+  background-position-y: -56px;
+  background-size: 139%;
+  background-repeat: no-repeat;
+}
+
+.yoga-details .importance-of-yoga {
+  height: 100%;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+
+.importance-of-yoga .title {
+  font-size: 56px;
+  font-weight: 100;
+}
+
+.importance-of-yoga .description {
+  font-size: 16px;
+  padding: 43px 0px;
+  color: #909090;
+}
+
+.importance-of-yoga .benefits-points {
+  font-size: 24px;
+  padding: 18px;
+}
+
+.importance-of-yoga .benefits-points li {
+  padding: 10px 0px;
+  line-height: 1.25;
+}
